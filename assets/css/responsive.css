@@ -1,0 +1,31 @@
+@media (min-width:320px) and (max-width:370px){
+.venue-ordered-cstmr h1, .ordered-cstmr-list li span{font-size:20px;line-height: 24px;}
+.cstmr-order-details.first span img{max-width: 50px;}
+.venue-logo img{max-width: 90px;}
+.page-container-booking{ max-width: 280px;}
+.cstmr-queue-block input{ padding:5px 12px;}
+
+
+}
+@media (min-width:371px) and (max-width:500px) {
+.venue-logo img{max-width: 90px;}
+.venue-ordered-cstmr h1, .ordered-cstmr-list li span{font-size:24px;line-height: 28px;}
+.ordered-cstmr-list li{ margin:3px 0;}
+}
+@media (max-width:767px) {
+.venue-ordered-cstmr{ background-position:center center !important;}
+.cstmr-booking-table {padding: 20px 0 0;}
+
+} /******* for any moblie *******/
+
+@media (min-width:768px) and (max-width:991px) {
+.venue-ordered-cstmr h1, .ordered-cstmr-list li span{font-size:26px;line-height: 32px;}
+
+} /******* for any tablet horizantel********/
+@media (min-width:992px) and (max-width:1199px) {
+
+} /******* for any tablet verticle********/
+
+@media (min-width:1200px) {
+	.venue-ordered-cstmr{background:rgba(0, 0, 0, 0) url("../img/background.jpg") repeat scroll 0 0 / cover ;}
+} /*********** for all desktop *********************************/
